@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Arial-MT";
-  src: url("../assets/fonts/Arial-MT.woff"); /* Путь к файлу со шрифтом */
+  src: url("../assets/fonts/Arial-MT.woff");
 }
 
 * {
@@ -21,7 +21,6 @@ body {
   font-size: 16px;
   color: #fff;
   text-align: center;
-  /* background: url("../assets/img/bg.jpg") center/cover, rgba(0, 0, 0, 0.5); */
   background-blend-mode: multiply;
   transition: background-image 1s ease-in-out;
 }
@@ -142,7 +141,6 @@ body {
   background: #c5b358;
   border-radius: 5px;
   height: 6px;
-  /* width: 75px; */
 }
 
 .sound-time {
