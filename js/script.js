@@ -343,12 +343,8 @@ const progressVolumeContainer = document.querySelector(
 function setProgressVolume(e) {
   const width = this.clientWidth;
   const clickX = e.offsetX;
-  // const volume = audio.volume;
   const volumePercent = (clickX / width) * 100;
-
   audio.volume = clickX / width;
   progressVolume.style.width = `${volumePercent}%`;
-
-  // console.log(audio.volume);
 }
 progressVolumeContainer.addEventListener("click", setProgressVolume);
